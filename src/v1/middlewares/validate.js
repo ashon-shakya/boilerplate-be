@@ -1,6 +1,6 @@
 // middleware/validate.js
 const httpStatus = require("http-status");
-const { createResponseObject } = require("../helpers/response");
+const { createResponseObject } = require("../utils/response");
 
 const validate = (schema) => {
     return (req, res, next) => {

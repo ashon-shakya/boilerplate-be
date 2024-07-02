@@ -1,6 +1,6 @@
 const httpStatus = require("http-status");
 const { taskService } = require("../services");
-const { createResponseObject } = require("../helpers/response");
+const { createResponseObject } = require("../utils/response");
 
 const getTask = (req, res) => {
     try {
