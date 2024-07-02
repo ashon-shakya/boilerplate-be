@@ -1,7 +1,7 @@
 {
   "name": "node-boilerplate",
   "version": "1.0.0",
-  "description": "RESTFul API NodeJS Application",
+  "description": "RESTFul API Express NodeJS Application",
   "main": "server.js",
   "scripts": {
     "start": "node src/server.js",
