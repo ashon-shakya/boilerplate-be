@@ -4,7 +4,7 @@ const { toJSON, paginate } = require("./plugins");
 const taskSchema = new mongoose.Schema({
     title: { type: String, unique: true, required: true },
     description: { type: String },
-    completed: { type: Boolean },
+    completed: { type: Boolean, default: false },
 });
 
 // add plugin that converts mongoose to json

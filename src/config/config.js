@@ -1,5 +1,4 @@
 const dotenv = require("dotenv");
-
 dotenv.config();
 
 const port = process.env.PORT || 8100;
@@ -17,5 +16,5 @@ const mongoose = {
 module.exports = {
     port,
     env,
-    mongoose: mongoose,
+    mongoose,
 };

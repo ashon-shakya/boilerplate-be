@@ -1,6 +1,5 @@
 const express = require("express");
 const config = require("./config/config");
-const path = require("path");
 const mongoose = require("mongoose");
 const httpStatus = require("http-status");
 
