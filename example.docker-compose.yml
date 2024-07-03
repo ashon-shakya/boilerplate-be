@@ -2,7 +2,7 @@ version: "3"
 
 services:
   app:
-    container_name: node-boilerplate
+    container_name: express-boilerplate
     restart: always
     build: .
     environment: 

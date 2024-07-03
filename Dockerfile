@@ -2,10 +2,10 @@
 FROM node:20
 
 # Create a new directory in the container to hold the application code
-RUN mkdir -p /workspace/node-boilerplate
+RUN mkdir -p /workspace/express-boilerplate
 
 # Set the working directory to the new directory
-WORKDIR /workspace/node-boilerplate
+WORKDIR /workspace/express-boilerplate
 
 # Copy the package.json and package-lock.json files to the container
 COPY package.json ./

@@ -1,5 +1,5 @@
 {
-  "name": "node-boilerplate",
+  "name": "express-boilerplate-be",
   "version": "1.0.0",
   "description": "RESTFul API Express NodeJS Application",
   "main": "server.js",
