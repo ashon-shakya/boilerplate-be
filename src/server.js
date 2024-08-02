@@ -18,7 +18,8 @@ app.use(express.urlencoded({ extended: false }));
  */
 app.get("/", (req, res) => {
     const data = {
-        message: "Welcome to Rebbtech Express API Boilerplate",
+        message:
+            "Welcome to Rebbtech Express API Boilerplate! This has been hosted using AWS",
         status: "OK",
         date: new Date(),
     };
